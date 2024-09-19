@@ -4,7 +4,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '10px'
+    },
+    extend: {
+      colors:{
+        'main': '#9E78CF'
+      }
+    },
   },
   plugins: [],
 }
