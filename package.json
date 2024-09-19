@@ -2,7 +2,7 @@
   "name": "todolist",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://parsa-sbg.github.io/todolist",
+  "homepage": "https://parsa-sbg.github.io/todoList",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
