@@ -9,7 +9,7 @@ export default function DoneTasksList() {
 
     return (
         <div className="mt-10">
-            <h2 className="text-white mb-3">Done - 1</h2>
+            <h2 className="text-white mb-3">Done - {complatedTodos.length}</h2>
             <div className="flex flex-col gap-4">
                 {complatedTodos.length ? complatedTodos.map(todo => (
                     <DoneTodoBox key={todo.id} text={todo.text} todoId={todo.id} />
